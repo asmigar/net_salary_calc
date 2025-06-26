@@ -1,4 +1,4 @@
-public class NetSalaryCalc {
+class NetSalaryCalc {
 
     static final int VEHICLE_ALLOWANCE = 1000;
     static final int INCOME_TAX = 1200;
