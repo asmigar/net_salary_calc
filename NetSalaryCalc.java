@@ -32,8 +32,8 @@ class NetSalaryCalc {
     public static void main(String[] args) {
         String name = args[0];
         int basicSalary = Integer.parseInt(args[1]);
-        System.out.println(name);
-        System.out.println(basicSalary);
+        System.out.println("Your name:" + name);
+        System.out.println("Your basic Salary:" + basicSalary);
 
         System.out.println(name + ", your net salary is " + netSalary(basicSalary));
     }
